@@ -130,10 +130,11 @@ net.SGD(mytraining_data,10,100,0.1,test_data=mytest_data)   #将训练集喂入S
 *没加注释*
 
 ## 测试结果
-**CPU：**
+
+**CPU**
 ![image](https://github.com/Aurelio-Sy/Mnist-test-gpu-performance/blob/master/cpu_result.png)
 
-**GPU:**
+**GPU**
 ![image](https://github.com/Aurelio-Sy/Mnist-test-gpu-performance/blob/master/gpu_result.png)
 
 ## Summary
