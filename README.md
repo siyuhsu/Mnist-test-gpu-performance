@@ -131,7 +131,10 @@ net.SGD(mytraining_data,10,100,0.1,test_data=mytest_data)   #将训练集喂入S
 
 ## 测试结果
 **CPU：**
-![image text](https://github.com/Aurelio-Sy/Mnist-test-gpu-performance/edit/master/cpu-result)
+![image](https://github.com/Aurelio-Sy/Mnist-test-gpu-performance/blob/master/cpu_result.png)
 
 **GPU:**
-![image text](https://github.com/Aurelio-Sy/Mnist-test-gpu-performance/edit/master/gpu-result)
+![image](https://github.com/Aurelio-Sy/Mnist-test-gpu-performance/blob/master/gpu_result.png)
+
+## Summary
+经过这次动手实践，对搭建机器学习模型过程有了基本的了解，加深了对Tensorflow框架的掌握，对前向传播，反向传播，minibatch,SGD,evaluate算法有了更深的理解。原来的test.py过程很简单，还有许多可以优化的地方，有空还会进一步优化，提高准确率。
